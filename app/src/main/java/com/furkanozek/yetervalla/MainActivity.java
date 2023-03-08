@@ -3,6 +3,7 @@ package com.furkanozek.yetervalla;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,7 +13,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void save(){
+    public void save(View view){
         System.out.println("selamlar");
+    }
+
+    public void saveee(){
+
     }
 }
