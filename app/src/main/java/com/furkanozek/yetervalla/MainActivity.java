@@ -18,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void saveee(){
-
+        System.out.println("selamlar türkkiyem");
     }
 }
